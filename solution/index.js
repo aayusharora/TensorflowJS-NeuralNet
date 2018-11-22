@@ -25,6 +25,7 @@ const outputData = tf.tensor2d(iris.map(item => [
 // Creating Model
 const model = tf.sequential();
 
+
 model.add(tf.layers.dense(
     {   inputShape: 4, 
         activation: 'sigmoid', 
